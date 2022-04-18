@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ccac7815e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contactus.css">
+    <title>mysecondblog</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="abouts.html">Abouts</a>
+        <a href="contactus.html">Contact US</a>
+        <div class="dropdown">
+            <button class="dropbtn">Services
+                    <i class="fa fa-caret-down"></i>
+                </button>
+            <div class="dropdown-contact">
+                <a href="#">link 1</a>
+                <a href="#">link 2</a>
+                <a href="#">link 3</a>
+            </div>
+        </div>
+        <a href="gallery.html">Gallery</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <!-- start aside section -->
+    <div class="aside-section">
+        <div class="middle-section">
+            <h2>Great Discount On Lates <br>Collection</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+            <a href="#" class="button-section">Get started</a> <a href="#" class="button-wrapper">Contact Us</a>
+        </div>
+    </div>
+    <section>
+        <div class="infoemation-section-group">
+            <div class="copy-right-section">
+                <h1>Have you any question?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione! Laboriosam est, assumenda. Perferendis, quo alias quaerat aliquid. Corporis ipsum minus voluptate? Dolore, esse natus!</p>
+                <form action="#">
+                    <input type="name" name="name" placeholder="Name"><br><br>
+                    <input type="email" placeholder="Email"><br><br>
+                    <input type="phone" placeholder="Phone"><br><br>
+                    <input type="subject" placeholder="Subject"><br><br>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea><br><br>
+                    <a href="#" class="btn-section">SUBMIT</a>
+                </form>
+            </div>
+            <div class="copy-right-section">
+                <h1><i class="fa fa-address-card"></i> Address</h1>
+                <p>pokhara-7,Ratna chowk,kaski,33700 Gandaki, Nepal</p>
+                <h1><i class="fa fa-envelope-open"></i> Email</h1>
+                <p>khadayatkalak99@gmail.com</p>
+                <h1><i class="fa fa-connectdevelop"></i> contact</h1>
+                <p>+977-9745283449</p>
+            </div>
+        </div>
+        <div class="center">
+            <h2><i class="fa fa-map-marker-alt"></i> Find Our Location</h2>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224976.92688589898!2d83.81653003757029!3d28.229651028649386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995937bbf0376ff%3A0xf6cf823b25802164!2sPokhara!5e0!3m2!1sen!2snp!4v1648398914233!5m2!1sen!2snp"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <!-- start footer section -->
+    <footer>
+        <div class="information-section">
+            <div class="available">
+                <h3>About US</h3>
+                <p class="from">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure corrupti illo dolore atque iusto illum, ratione perspiciatis fugiat reiciendis.</p>
+            </div>
+            <div class="available">
+                <h3>Getin Touch</h3>
+                <a href="#" class="article-section">Address</a>
+                <a href="#" class="article-section">Phone</a>
+                <a href="#" class="article-section">Email</a>
+                <div class="icon">
+                    <a href="#"> <i class="fab fa-twitter"></i></a><i class="fab fa-facebook"></i><i class="fab fa-facebook-messenger"></i><i class="fab fa-instagram-square"></i>
+                </div>
+            </div>
+            <div class="available">
+                <h3>Popular Link</h3>
+                <a href="#" class="article-group">Home</a>
+                <a href="#" class="article-group">About</a>
+                <a href="#" class="article-group">Services</a>
+                <a href="#" class="article-group">Contact</a>
+            </div>
+            <div class="available">
+                <h3>Neuse Letter</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, enim ab eum itaque voluptas quibusdam?</p>
+                <hr>
+                <form action="#">
+                    <input type="amail" placeholder="Enter your Email"><button class="button-art">G+</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+</body>
+
+</html>
